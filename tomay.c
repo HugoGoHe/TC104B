@@ -6,11 +6,11 @@
 int main(){
     char c;
     char may;
-    int n;
+    int n;  
     do{
         n = read(STDIN_FILENO, &c,1);
         if (c == 'a' ||c == 'e' ||c == 'i' ||c == 'o' ||c == 'u'){
-            may = '1';
+            may = "\n 1 \n";
             write(STDOUT_FILENO, &may,1);
         }
 
